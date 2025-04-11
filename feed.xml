@@ -1,21 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>羊姥苑的第一個家</title>
+    <title>blog.sheepht.com</title>
     <link href="https://sheepht.github.io/feed.xml" rel="self" />
     <link href="https://sheepht.github.io" />
-    <updated>2025-04-11T20:18:26+08:00</updated>
+    <updated>2025-04-12T00:15:04+08:00</updated>
     <author>
         <name>sheepht</name>
     </author>
     <id>https://sheepht.github.io</id>
 
     <entry>
-        <title>just 1st post</title>
+        <title>just post 2</title>
         <author>
             <name>sheepht</name>
         </author>
+        <link href="https://sheepht.github.io/just-post-2.html"/>
+        <id>https://sheepht.github.io/just-post-2.html</id>
+
+        <updated>2025-04-12T00:12:53+08:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <p><img loading="lazy" src="https://forages.oregonstate.edu/sites/forages.oregonstate.edu/files/sheep_0.png" alt="Sheep | Forage Information System | Oregon State University" data-is-external-image="true"></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>just 1st post</title>
+        <author>
+            <name>白羊</name>
+        </author>
         <link href="https://sheepht.github.io/just-1st-post.html"/>
         <id>https://sheepht.github.io/just-1st-post.html</id>
+            <category term="tag2"/>
+            <category term="tag1"/>
 
         <updated>2025-04-11T20:18:26+08:00</updated>
             <summary>
