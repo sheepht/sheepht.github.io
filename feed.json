@@ -2,16 +2,16 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "blog.sheepht.com",
     "description": "",
-    "home_page_url": "https://sheepht.github.io",
-    "feed_url": "https://sheepht.github.io/feed.json",
+    "home_page_url": "https://blog.sheepht.com",
+    "feed_url": "https://blog.sheepht.com/feed.json",
     "user_comment": "",
     "author": {
         "name": "sheepht"
     },
     "items": [
         {
-            "id": "https://sheepht.github.io/just-post-2.html",
-            "url": "https://sheepht.github.io/just-post-2.html",
+            "id": "https://blog.sheepht.com/just-post-2.html",
+            "url": "https://blog.sheepht.com/just-post-2.html",
             "title": "just post 2",
             "content_html": "<p><img loading=\"lazy\" src=\"https://forages.oregonstate.edu/sites/forages.oregonstate.edu/files/sheep_0.png\" alt=\"Sheep | Forage Information System | Oregon State University\" data-is-external-image=\"true\"></p>",
             "author": {
@@ -23,8 +23,8 @@
             "date_modified": "2025-04-12T00:22:02+08:00"
         },
         {
-            "id": "https://sheepht.github.io/just-1st-post.html",
-            "url": "https://sheepht.github.io/just-1st-post.html",
+            "id": "https://blog.sheepht.com/just-1st-post.html",
+            "url": "https://blog.sheepht.com/just-1st-post.html",
             "title": "just 1st post",
             "summary": "這是測試發佈的第一篇文章",
             "content_html": "<p>這是測試發佈的第一篇文章</p>\n<p><img loading=\"lazy\" src=\"https://learningenglish.rti.org.tw/wp-content/uploads/2020/03/960x540_learning-english-authentic-real-english-sheeple-imagesgetty.jpg\" alt=\"Sheeple 隨波逐流的「羊人們」 | 與BBC一起學英語\" data-is-external-image=\"true\"></p>",
