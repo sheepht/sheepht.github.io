@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>羊姥苑的第一個家</title>
+    <link href="https://sheepht.github.io/feed.xml" rel="self" />
+    <link href="https://sheepht.github.io" />
+    <updated>2025-04-11T20:18:26+08:00</updated>
+    <author>
+        <name>sheepht</name>
+    </author>
+    <id>https://sheepht.github.io</id>
+
+    <entry>
+        <title>just 1st post</title>
+        <author>
+            <name>sheepht</name>
+        </author>
+        <link href="https://sheepht.github.io/just-1st-post.html"/>
+        <id>https://sheepht.github.io/just-1st-post.html</id>
+
+        <updated>2025-04-11T20:18:26+08:00</updated>
+            <summary>
+                <![CDATA[
+                    這是測試發佈的第一篇文章
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>這是測試發佈的第一篇文章</p>
+<p><img loading="lazy" src="https://learningenglish.rti.org.tw/wp-content/uploads/2020/03/960x540_learning-english-authentic-real-english-sheeple-imagesgetty.jpg" alt="Sheeple 隨波逐流的「羊人們」 | 與BBC一起學英語" data-is-external-image="true"></p>
+            ]]>
+        </content>
+    </entry>
+</feed>

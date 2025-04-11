@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: file:////Users/sexyoung/Documents/Publii/sites/yang-mu-yuan-de-di-yi-ge-jia/preview/sitemap.xml
