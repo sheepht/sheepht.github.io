@@ -3,7 +3,7 @@
     <title>blog.sheepht.com</title>
     <link href="https://blog.sheepht.com/feed.xml" rel="self" />
     <link href="https://blog.sheepht.com" />
-    <updated>2025-04-12T23:11:08+08:00</updated>
+    <updated>2025-04-12T23:15:30+08:00</updated>
     <author>
         <name>sheepht</name>
     </author>
@@ -14,23 +14,23 @@
         <author>
             <name>黑羊 JF</name>
         </author>
-        <link href="https://blog.sheepht.com/di-san-pian.html"/>
-        <id>https://blog.sheepht.com/di-san-pian.html</id>
-        <media:content url="https://blog.sheepht.com/media/posts/4/ChatGPT-Image-2025Nian-4Yue-12Ri-Xia-Wu-08_38_20.png" medium="image" />
+        <link href="https://blog.sheepht.com/yi-ge-wan-quan-bu-dong-nodejs-de-renye-neng-yong-cursor-xie-line-bot-ying-yong.html"/>
+        <id>https://blog.sheepht.com/yi-ge-wan-quan-bu-dong-nodejs-de-renye-neng-yong-cursor-xie-line-bot-ying-yong.html</id>
+        <media:content url="https://blog.sheepht.com/media/posts/5/ChatGPT-Image-2025Nian-4Yue-12Ri-Xia-Wu-08_38_20.png" medium="image" />
             <category term="開發"/>
             <category term="Cursor"/>
             <category term="AI"/>
 
-        <updated>2025-04-12T13:22:25+08:00</updated>
+        <updated>2025-04-12T23:14:32+08:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.sheepht.com/media/posts/4/ChatGPT-Image-2025Nian-4Yue-12Ri-Xia-Wu-08_38_20.png" alt="" />
+                        <img src="https://blog.sheepht.com/media/posts/5/ChatGPT-Image-2025Nian-4Yue-12Ri-Xia-Wu-08_38_20.png" alt="" />
                     身為一個熟悉 Python 的開發者，過去主要在資料處理與工具開發領域打滾，但如果你問我 npm install 到底裝去哪、.ts 和 .js 差在哪裡，那真的是知識空白區 XD 這次的目標是打造一個 LINE Bot，功能簡單直接：使用者在群組中輸入「+1」「-1」，系統會自動計算報名狀況，並回報至&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://blog.sheepht.com/media/posts/4/ChatGPT-Image-2025Nian-4Yue-12Ri-Xia-Wu-08_38_20.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://blog.sheepht.com/media/posts/5/ChatGPT-Image-2025Nian-4Yue-12Ri-Xia-Wu-08_38_20.png" class="type:primaryImage" alt="" /></p>
                 <p data-pm-slice="1 1 []">身為一個熟悉 Python 的開發者，過去主要在資料處理與工具開發領域打滾，但如果你問我 <code>npm install</code> 到底裝去哪、<code>.ts</code> 和 <code>.js</code> 差在哪裡，那真的是知識空白區 XD</p>
 <p>這次的目標是打造一個 LINE Bot，功能簡單直接：使用者在群組中輸入「+1」「-1」，系統會自動計算報名狀況，並回報至 LINE 群組。</p>
 <p>雖然直接可以用 Python 寫，但剛好想嘗試看看 —— 如果完全不懂的語言，只靠 Cursor，我能寫出什麼程度的東西？</p>
