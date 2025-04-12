@@ -131,7 +131,7 @@
             "name": "textHero",
             "label": "Text",
             "group": "Layout",
-            "value": "<h1>Explore, be curious.</h1><p>Discover stories, thinking, and expertise from writers on any topic. </p>",
+            "value": "<h1>羊姥苑工作室 Sheepht</h1><p>用技術與創意打造實用小工具的日常</p>",
             "type": "wysiwyg"
         },
         {

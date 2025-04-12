@@ -2,41 +2,31 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "blog.sheepht.com",
     "description": "",
-    "home_page_url": "file:////Users/sexyoung/Documents/Publii/sites/blogsheephtcom/preview",
-    "feed_url": "file:////Users/sexyoung/Documents/Publii/sites/blogsheephtcom/preview/feed.json",
+    "home_page_url": "file:///C:\Users\User\Documents\Publii\sites\blogsheephtcom\preview",
+    "feed_url": "file:///C:\Users\User\Documents\Publii\sites\blogsheephtcom\preview/feed.json",
     "user_comment": "",
+    "icon": "file:///C:/Users/User/Documents/Publii/sites/blogsheephtcom/preview/media/website/sheepht-700-transparent.png",
     "author": {
         "name": "sheepht"
     },
     "items": [
         {
-            "id": "file:////Users/sexyoung/Documents/Publii/sites/blogsheephtcom/preview/just-post-2.html",
-            "url": "file:////Users/sexyoung/Documents/Publii/sites/blogsheephtcom/preview/just-post-2.html",
-            "title": "just post 2",
-            "content_html": "<p><img loading=\"lazy\" src=\"https://forages.oregonstate.edu/sites/forages.oregonstate.edu/files/sheep_0.png\" alt=\"Sheep | Forage Information System | Oregon State University\" data-is-external-image=\"true\"></p>",
+            "id": "file:///C:\Users\User\Documents\Publii\sites\blogsheephtcom\preview/di-san-pian.html",
+            "url": "file:///C:\Users\User\Documents\Publii\sites\blogsheephtcom\preview/di-san-pian.html",
+            "title": "一個完全不懂 Node.js 的人，也能用 Cursor 寫 LINE Bot 應用",
+            "summary": "身為一個熟悉 Python 的開發者，過去主要在資料處理與工具開發領域打滾。 熟悉 Flask、FastAPI，也擅長用 pandas、requests、sqlite 等模組做出後端工具。 但如果你問我 npm install 到底裝去哪、.ts 和 .js&hellip;",
+            "content_html": "<p data-pm-slice=\"1 1 []\">身為一個熟悉 Python 的開發者，過去主要在資料處理與工具開發領域打滾。 熟悉 Flask、FastAPI，也擅長用 pandas、requests、sqlite 等模組做出後端工具。</p>\n<p>但如果你問我 <code>npm install</code> 到底裝去哪、<code>.ts</code> 和 <code>.js</code> 差在哪裡，那真的是知識空白區。</p>\n<p>這次的目標是打造一個 LINE Bot，功能簡單直接：使用者在群組中輸入「+1」「-1」，系統會自動計算報名狀況，並回報至 LINE 群組。</p>\n<p>雖然直接可以用 Python 寫，但剛好想嘗試看看 —— 如果完全不懂的語言，只靠 Cursor，我能寫出什麼程度的東西？</p>\n<h2 data-pm-slice=\"1 1 []\">開工前的準備：先定義 Cursor 規則</h2>\n<p data-pm-slice=\"1 1 []\">一開始並沒有選用 <code>npx</code> 建立預設專案，而是直接開了資料夾，把 <code>.cursor/*.mdc</code> 寫好。</p>\n<p data-pm-slice=\"1 1 []\">這邊可以查到各語言的 Cursor Rule 範例<br><a href=\"https://github.com/PatrickJS/awesome-cursorrules\">https://github.com/PatrickJS/awesome-cursorrules</a></p>\n<p data-pm-slice=\"1 1 []\">再來是需要寫好專案的 SPEC（要做什麼、不做什麼），可以省下很多返工的時間。<br>就像寫測試前先寫好需求，AI 幫你開發時也需要類似的界線感。<br>當 Cursor 自己爆走的時候，也可以回到 SPEC 文件提醒它。</p>\n<h2 data-pm-slice=\"1 1 []\">開發過程：Python 腦袋駕馭 Node.js 世界</h2>\n<p>描述需求的方式，則是延續了寫 Python 時的習慣，具備基本程式邏輯知識，跨語言開發可以使用更精準的關鍵字，只要描述得夠清楚，回傳的程式碼品質都很不錯。</p>\n<h2 data-pm-slice=\"1 1 []\">常見踩雷：每個需求，小塊小塊處理最好</h2>\n<p data-pm-slice=\"1 1 []\">專案結構一旦搭好，就進入功能拆解流程。</p>\n<p>初期曾經嘗試一次請它實作多個功能（處理訊息、更新報名、回傳狀態），結果它直接改掉整個架構，還複製出一堆重複邏輯（不停的向後兼容😵‍💫）</p>\n<p>後來採用「一次請它處理一個功能」的方式，穩定度就高很多。</p>\n<h2 data-pm-slice=\"1 1 []\">成果：Pluseal 活動報名工具</h2>\n<p><a href=\"https://pluseal.sheepht.com/\" target=\"_blank\" rel=\"noopener noreferrer\">LINE +1 報名活動海豹 Pluseal</a> <br>是這次實驗做出來的成果</p>\n<p data-pm-slice=\"1 1 []\">在 LINE 群組中輸入「+1」、「-1」，就會自動登記活動報名、回報名單，讓主揪不用再花力氣手動計算，是個方便實用的日常小工具唷 :)</p>\n<h2 data-pm-slice=\"1 1 []\">結語：即使對語法不熟，也能完成一個完整產品</h2>\n<p data-pm-slice=\"1 1 []\">AI 工具出現後，開發的順序已經反過來： 不是「會某個語言 → 才能做某種產品」，而是「有想法 → 定義 SPEC → 讓 AI 幫你完成技術路徑」。</p>\n<p>這次的 Pluseal 就是個範例：<br>Node.js 完全是從 0 開始， 但靠著明確描述與善用工具，一樣能讓它跑上 Production。</p>\n<blockquote>\n<p>btw，所有使用到的圖像化元素也都是搭配 GPT 等工具生成的唷~</p>\n</blockquote>",
+            "image": "file:///C:\Users\User\Documents\Publii\sites\blogsheephtcom\preview/media/posts/4/ChatGPT-Image-2025Nian-4Yue-12Ri-Xia-Wu-08_38_20.png",
             "author": {
-                "name": "白羊"
+                "name": "黑羊 JF"
             },
             "tags": [
+                   "開發",
+                   "Cursor",
+                   "AI"
             ],
-            "date_published": "2025-04-12T00:12:53+08:00",
-            "date_modified": "2025-04-12T00:22:02+08:00"
-        },
-        {
-            "id": "file:////Users/sexyoung/Documents/Publii/sites/blogsheephtcom/preview/just-1st-post.html",
-            "url": "file:////Users/sexyoung/Documents/Publii/sites/blogsheephtcom/preview/just-1st-post.html",
-            "title": "just 1st post",
-            "summary": "這是測試發佈的第一篇文章",
-            "content_html": "<p>這是測試發佈的第一篇文章</p>\n<p><img loading=\"lazy\" src=\"https://learningenglish.rti.org.tw/wp-content/uploads/2020/03/960x540_learning-english-authentic-real-english-sheeple-imagesgetty.jpg\" alt=\"Sheeple 隨波逐流的「羊人們」 | 與BBC一起學英語\" data-is-external-image=\"true\"></p>",
-            "author": {
-                "name": "白羊"
-            },
-            "tags": [
-                   "tag2",
-                   "tag1"
-            ],
-            "date_published": "2025-04-11T20:18:26+08:00",
-            "date_modified": "2025-04-12T00:15:04+08:00"
+            "date_published": "2025-04-12T13:22:25+08:00",
+            "date_modified": "2025-04-12T20:40:36+08:00"
         }
     ]
 }
