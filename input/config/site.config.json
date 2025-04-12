@@ -2,13 +2,13 @@
     "uuid": "uuid-1744373831640-306881516",
     "name": "blogsheephtcom",
     "displayName": "blog.sheepht.com",
-    "description": "",
-    "synced": false,
+    "description": "羊姥苑的第一個家",
+    "synced": "synced",
     "logo": {
         "color": 1,
         "icon": "web-sun"
     },
-    "domain": "https://sheepht.github.io",
+    "domain": "https://blog.sheepht.com",
     "language": "zh-tw",
     "spellchecking": false,
     "advanced": {
@@ -178,7 +178,7 @@
         "port": "",
         "server": "",
         "username": "",
-        "password": "publii uuid-1744373831640-306881516",
+        "password": "",
         "askforpassword": false,
         "rejectUnauthorized": true,
         "path": "",
@@ -188,8 +188,8 @@
             "customProvider": false,
             "provider": "aws",
             "endpoint": "",
-            "id": "publii-s3-id uuid-1744373831640-306881516",
-            "key": "publii-s3-key uuid-1744373831640-306881516",
+            "id": "",
+            "key": "",
             "bucket": "",
             "region": "",
             "customRegion": "",
@@ -200,7 +200,7 @@
             "url": "",
             "branch": "",
             "user": "",
-            "password": "publii-git-password uuid-1744373831640-306881516",
+            "password": "",
             "commitAuthor": "",
             "commitEmail": "",
             "commitMessage": "Publii: update content"
@@ -219,11 +219,11 @@
             "rejectUnauthorized": true,
             "repo": "",
             "branch": "",
-            "token": "publii-gl-token uuid-1744373831640-306881516"
+            "token": ""
         },
         "netlify": {
-            "id": "publii-netlify-id uuid-1744373831640-306881516",
-            "token": "publii-netlify-token uuid-1744373831640-306881516"
+            "id": "",
+            "token": ""
         },
         "google": {
             "key": "",
@@ -235,5 +235,6 @@
             "outputDirectory": ""
         }
     },
-    "theme": "simple"
+    "theme": "mono",
+    "syncDate": 1744389820080
 }

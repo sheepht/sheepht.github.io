@@ -1,1 +1,30 @@
-[]
+[
+    {
+        "name": "menu1",
+        "position": "",
+        "items": [
+            {
+                "id": 1744388205759,
+                "label": "tag1 link",
+                "title": "",
+                "type": "tag",
+                "target": "_self",
+                "rel": "",
+                "link": 1,
+                "cssClass": "",
+                "isHidden": false,
+                "items": []
+            }
+        ]
+    },
+    {
+        "name": "menu2",
+        "position": "",
+        "items": []
+    },
+    {
+        "name": "menu3",
+        "position": "",
+        "items": []
+    }
+]
