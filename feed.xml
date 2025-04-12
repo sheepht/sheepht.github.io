@@ -3,12 +3,34 @@
     <title>blog.sheepht.com</title>
     <link href="https://blog.sheepht.com/feed.xml" rel="self" />
     <link href="https://blog.sheepht.com" />
-    <updated>2025-04-12T00:22:02+08:00</updated>
+    <updated>2025-04-12T13:22:25+08:00</updated>
     <author>
         <name>sheepht</name>
     </author>
     <id>https://blog.sheepht.com</id>
 
+    <entry>
+        <title>第三篇</title>
+        <author>
+            <name>黑羊</name>
+        </author>
+        <link href="https://blog.sheepht.com/di-san-pian.html"/>
+        <id>https://blog.sheepht.com/di-san-pian.html</id>
+            <category term="tag1"/>
+
+        <updated>2025-04-12T13:22:25+08:00</updated>
+            <summary>
+                <![CDATA[
+                    123 😀
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>123</p>
+<p>😀</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>just post 2</title>
         <author>
