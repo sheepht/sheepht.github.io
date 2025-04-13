@@ -75,8 +75,8 @@
         "formatDate": "MMM D, YYYY",
         "formatDateCustom": "HH:mm:ss YY/MM/DD",
         "lazyLoadEffect": "fadein",
-        "faviconUpload": "",
-        "faviconExtension": "image/x-icon"
+        "faviconUpload": "media/website/sheepht-700-transparent-2.png",
+        "faviconExtension": "image/png"
     },
     "postConfig": {
         "displayPostLead": "",
