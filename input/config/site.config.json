@@ -1,6 +1,6 @@
 {
     "uuid": "uuid-1744373831640-306881516",
-    "name": "blogsheephtcom",
+    "name": "sheepht.github.io",
     "displayName": "blog.sheepht.com",
     "description": "羊姥苑的第一個家",
     "synced": "synced",
@@ -243,5 +243,5 @@
         }
     },
     "theme": "mono",
-    "syncDate": 1744535631173
+    "syncDate": 1744536688822
 }
