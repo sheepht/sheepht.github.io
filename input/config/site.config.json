@@ -17,7 +17,7 @@
         "htmlCompressionRemoveComments": 1,
         "imagesQuality": 60,
         "alphaQuality": 100,
-        "forceWebp": false,
+        "forceWebp": true,
         "webpLossless": false,
         "responsiveImages": 1,
         "mediaLazyLoad": 1,
@@ -236,5 +236,5 @@
         }
     },
     "theme": "mono",
-    "syncDate": 1744472911278
+    "syncDate": 1744532290001
 }
