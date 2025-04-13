@@ -1,8 +1,8 @@
 {
     "uuid": "uuid-1744373831640-306881516",
-    "name": "blogsheephtcom",
-    "displayName": "blog.sheepht.com",
-    "description": "羊姥苑的第一個家",
+    "name": "yang-mu-yuan-gong-zuo-shi-de-bu-luo-ge-sheephts-blog",
+    "displayName": "羊姥苑工作室的部落格 Sheepht's Blog",
+    "description": "羊姥苑工作室的部落格",
     "synced": "synced",
     "logo": {
         "color": 1,
@@ -185,7 +185,7 @@
         "port": "",
         "server": "",
         "username": "",
-        "password": "",
+        "password": "publii uuid-1744373831640-306881516",
         "askforpassword": false,
         "rejectUnauthorized": true,
         "path": "",
@@ -195,8 +195,8 @@
             "customProvider": false,
             "provider": "aws",
             "endpoint": "",
-            "id": "",
-            "key": "",
+            "id": "publii-s3-id uuid-1744373831640-306881516",
+            "key": "publii-s3-key uuid-1744373831640-306881516",
             "bucket": "",
             "region": "",
             "customRegion": "",
@@ -207,7 +207,7 @@
             "url": "",
             "branch": "",
             "user": "",
-            "password": "",
+            "password": "publii-git-password uuid-1744373831640-306881516",
             "commitAuthor": "",
             "commitEmail": "",
             "commitMessage": "Publii: update content"
@@ -226,11 +226,11 @@
             "rejectUnauthorized": true,
             "repo": "",
             "branch": "",
-            "token": ""
+            "token": "publii-gl-token uuid-1744373831640-306881516"
         },
         "netlify": {
-            "id": "",
-            "token": ""
+            "id": "publii-netlify-id uuid-1744373831640-306881516",
+            "token": "publii-netlify-token uuid-1744373831640-306881516"
         },
         "google": {
             "key": "",
@@ -243,5 +243,5 @@
         }
     },
     "theme": "mono",
-    "syncDate": 1744563566154
+    "syncDate": 1744564002996
 }
