@@ -106,7 +106,7 @@
             "errorPage": "404.html",
             "searchPage": "search.html"
         },
-        "customHeadCode": "",
+        "customHeadCode": "<script src=\"https://cdn.lrkt-in.com/LogRocket.min.js\" crossorigin=\"anonymous\"></script>\n<script>window.LogRocket && window.LogRocket.init('ujtkf6/blog-afbeg');</script>",
         "customBodyCode": "",
         "customCommentsCode": "",
         "customSearchInput": "",
@@ -170,6 +170,13 @@
             "customElements": "",
             "codemirrorTabSize": 4,
             "codemirrorAutoIndent": true
+        },
+        "customSocialSharing": "",
+        "customHTML": {
+            "beforePost": "",
+            "afterPost": "",
+            "beforePage": "",
+            "afterPage": ""
         }
     },
     "deployment": {
@@ -236,5 +243,5 @@
         }
     },
     "theme": "mono",
-    "syncDate": 1744533025206
+    "syncDate": 1744533553601
 }
