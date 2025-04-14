@@ -1,6 +1,6 @@
 {
     "uuid": "uuid-1744373831640-306881516",
-    "name": "yang-mu-yuan-gong-zuo-shi-de-bu-luo-ge-sheephts-blog",
+    "name": "sheepht.github.io",
     "displayName": "羊姥苑工作室的部落格 Sheepht's Blog",
     "description": "羊姥苑工作室的部落格",
     "synced": "synced",
@@ -243,5 +243,5 @@
         }
     },
     "theme": "mono",
-    "syncDate": 1744564002996
+    "syncDate": 1744609714651
 }
