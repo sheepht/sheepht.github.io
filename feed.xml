@@ -3,7 +3,7 @@
     <title>羊姥苑工作室的部落格 Sheepht&#x27;s Blog</title>
     <link href="https://blog.sheepht.com/feed.xml" rel="self" />
     <link href="https://blog.sheepht.com" />
-    <updated>2025-04-15T12:20:39+08:00</updated>
+    <updated>2025-04-15T12:22:30+08:00</updated>
     <author>
         <name>sheepht</name>
     </author>
@@ -14,8 +14,8 @@
         <author>
             <name>黑羊 JF</name>
         </author>
-        <link href="https://blog.sheepht.com/yong-cursor-cao-zuo-figma-mcp-de-shi-ce-xin-de.html"/>
-        <id>https://blog.sheepht.com/yong-cursor-cao-zuo-figma-mcp-de-shi-ce-xin-de.html</id>
+        <link href="https://blog.sheepht.com/cursor-talk-to-figma-mcp.html"/>
+        <id>https://blog.sheepht.com/cursor-talk-to-figma-mcp.html</id>
         <media:content url="https://blog.sheepht.com/media/posts/7/figma_mcp.png" medium="image" />
             <category term="開發"/>
             <category term="MCP"/>
