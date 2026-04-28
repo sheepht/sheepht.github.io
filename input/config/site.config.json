@@ -1,8 +1,8 @@
 {
     "uuid": "uuid-1744373831640-306881516",
     "name": "yang-mu-yuan-gong-zuo-shi-bu-luo-ge-sheephts-blog",
-    "displayName": "羊姥苑工作室部落格 Sheepht's Blog",
-    "description": "羊姥苑工作室部落格",
+    "displayName": "羊姥苑工作室 Sheepht Blog",
+    "description": "羊姥苑工作室 Sheepht 的產品與技術筆記，分享資料自動化、AI 工作流、內部工具與實用小工具的開發實驗。",
     "synced": "synced",
     "logo": {
         "color": 1,
@@ -36,7 +36,7 @@
         "twitterCardsType": "summary",
         "twitterUsername": "",
         "metaTitle": "%sitename",
-        "metaDescription": "",
+        "metaDescription": "羊姥苑工作室 Sheepht 的技術與產品筆記，紀錄資料自動化、AI 工具、內部系統、小工具開發與產品成長實驗。",
         "noIndexThisPage": false,
         "noIndexForChatGPTBot": false,
         "noIndexForChatGPTUser": false,
@@ -45,7 +45,7 @@
         "homepageNoPagination": false,
         "metaRobotsIndex": "index, follow",
         "homepageMetaTitle": "%sitename",
-        "homepageMetaDescription": "",
+        "homepageMetaDescription": "羊姥苑工作室 Sheepht 的技術與產品筆記，紀錄資料自動化、AI 工具、內部系統、小工具開發與產品成長實驗。",
         "homepageMetaRobotsIndex": "index, follow",
         "postMetaTitle": "%posttitle - %sitename ",
         "postMetaDescription": "",
@@ -245,5 +245,5 @@
         }
     },
     "theme": "mono",
-    "syncDate": 1776612859739
+    "syncDate": 1777349376852
 }
