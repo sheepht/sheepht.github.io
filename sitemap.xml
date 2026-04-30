@@ -5,6 +5,18 @@
 <loc>https://blog.sheepht.com/</loc>
 </url>
 <url>
+<loc>https://blog.sheepht.com/ai-fixed-workflow-openclaw-poc.html</loc>
+<lastmod>2026-04-30T23:25:38+08:00</lastmod>
+<image:image>
+<image:loc>https://blog.sheepht.com/media/posts/11/openclaw-ai-automation-cover.png</image:loc>
+<image:title><![CDATA[AI 自動化前，先拆流程：OpenClaw POC 實務觀察]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://blog.sheepht.com/media/posts/11/flowchart-process-tool-selection.png</image:loc>
+<image:title><![CDATA[先拆流程，再決定工具：固定資料流程適合程式、n8n、Airflow，語意判斷適合 AI 模型，重要決策保留人工確認]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://blog.sheepht.com/cursor-talk-to-figma-mcp.html</loc>
 <lastmod>2025-04-15T12:23:33+08:00</lastmod>
 <image:image>
@@ -141,13 +153,22 @@
 </image:image>
 </url>
 <url>
+<loc>https://blog.sheepht.com/tags/airflow/</loc>
+</url>
+<url>
 <loc>https://blog.sheepht.com/tags/bingox/</loc>
 </url>
 <url>
 <loc>https://blog.sheepht.com/tags/event-planning/</loc>
 </url>
 <url>
+<loc>https://blog.sheepht.com/tags/openclaw/</loc>
+</url>
+<url>
 <loc>https://blog.sheepht.com/tags/spring-banquet/</loc>
+</url>
+<url>
+<loc>https://blog.sheepht.com/tags/tag/</loc>
 </url>
 <url>
 <loc>https://blog.sheepht.com/tags/year-end-bingo/</loc>

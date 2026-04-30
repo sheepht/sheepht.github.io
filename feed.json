@@ -11,6 +11,23 @@
     },
     "items": [
         {
+            "id": "https://blog.sheepht.com/ai-fixed-workflow-openclaw-poc.html",
+            "url": "https://blog.sheepht.com/ai-fixed-workflow-openclaw-poc.html",
+            "title": "AI 很強，但固定流程不一定該交給它：一次 OpenClaw 自動化 POC 的觀察",
+            "summary": "前陣子協助評估一個自動化 POC 需求。 當時 OpenClaw，也就是大家常說的「龍蝦」，討論度很高。需求方也想試試看，能不能做出一個包山包海的 AI 助理，幫忙處理營運上的事情。 這個想法很合理。現在看到 AI 工具的 demo，很容易會覺得：「那我們是不是也可以讓 AI&hellip;",
+            "content_html": "<p>前陣子協助評估一個自動化 POC 需求。</p>\n<p>當時 OpenClaw，也就是大家常說的「龍蝦」，討論度很高。需求方也想試試看，能不能做出一個包山包海的 AI 助理，幫忙處理營運上的事情。</p>\n<p>這個想法很合理。現在看到 AI 工具的 demo，很容易會覺得：「那我們是不是也可以讓 AI 幫忙把公司內部流程跑起來？」</p>\n<p>但實際測下去，很快就會遇到一個現實問題：</p>\n<p>AI 很強，但 token 不是免費的。<br>而且不是每個流程都值得用 token 去跑。</p>\n<p>那次我們測的是營運報表相關流程。技術上不是做不到，但測試時就已經花掉不少 token，而且產出也不算穩定。便宜的模型不夠聰明，貴的模型效果比較好，但如果這個流程之後要固定執行，成本就會變成長期問題。</p>\n<p>更關鍵的是，回頭拆流程後會發現：這個營運報表其實很大一部分是固定流程。</p>\n<p>既然是固定流程，就不一定需要每次都請 AI 從頭判斷。</p>\n<h2>問題不是能不能做，而是值不值得這樣做</h2>\n<p>這類 POC 很常卡在一個地方：</p>\n<p>技術上不是做不到。<br>但做得到，不代表值得這樣做。</p>\n<p>如果一個營運報表每週都要跑，甚至每天都要跑，那每次呼叫模型的成本、等待時間、不穩定性，都會變成系統的一部分。</p>\n<p>一開始只是測試幾次，感覺還好。<br>但只要流程變成日常作業，就要開始問：</p>\n<ul>\n<li>這件事其實是不是固定規則？</li>\n<li>哪些地方真的需要 AI 判斷？</li>\n<li>模型輸出不穩時誰檢查？</li>\n<li>產出的報表能不能被信任？</li>\n<li>長期跑下來的成本合不合理？</li>\n</ul>\n<p>如果這些問題沒先想清楚，AI 自動化很容易變成一個 demo 很炫、上線很貴、壞掉沒人敢修的系統。</p>\n<h2>先拆流程，再決定工具</h2>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://blog.sheepht.com/media/posts/11/flowchart-process-tool-selection.png\" alt=\"先拆流程，再決定工具：固定資料流程適合程式、n8n、Airflow，語意判斷適合 AI 模型，重要決策保留人工確認\" width=\"1672\" height=\"941\" sizes=\"(min-width: 760px) 660px, calc(93.18vw - 30px)\" srcset=\"https://blog.sheepht.com/media/posts/11/responsive/flowchart-process-tool-selection-xs.webp 320w ,https://blog.sheepht.com/media/posts/11/responsive/flowchart-process-tool-selection-sm.webp 480w ,https://blog.sheepht.com/media/posts/11/responsive/flowchart-process-tool-selection-md.webp 768w ,https://blog.sheepht.com/media/posts/11/responsive/flowchart-process-tool-selection-xl.webp 1024w\"></figure>\n<p>後來我比較傾向先問一件事：</p>\n<blockquote>\n<p>這段流程到底有多少是固定規則？</p>\n</blockquote>\n<p>如果八成都固定，那它不該每次都花 token 請 AI 重想一次。</p>\n<p>固定時間抓資料、整理欄位、合併資料、產生固定格式、發通知，這些通常可以用程式、n8n 或 Airflow 這類工具處理。</p>\n<p>如果只是串接工具、通知或小型流程，n8n 通常很適合。</p>\n<p>如果規則比較複雜，或資料量比較大，可能就需要寫程式。</p>\n<p>如果資料流程牽涉多個來源、每日排程、重跑和監控，Airflow 這類工具會更適合。</p>\n<p>AI 則應該放在需要摘要、分類、解讀或產生草稿的地方。</p>\n<p>真正穩的自動化，不是把所有東西都丟給 AI，而是把 AI 放在真的需要它的位置。</p>\n<h2>導入 AI 前，先看流程是不是已經整理好</h2>\n<p>很多團隊不是不能用 AI，而是流程還沒整理好。</p>\n<p>資料散在不同系統。<br>欄位格式不一致。<br>報表靠人工複製貼上。<br>每個人對指標定義不同。<br>某些流程只有特定同事知道怎麼跑。</p>\n<p>在這種狀況下，直接做一個包山包海的 AI 助理，很容易把原本的混亂包進另一個更難維護的系統裡。</p>\n<p>所以我們在看 AI 或自動化需求時，通常不會一開始就問「要不要用 AI」。</p>\n<p>會先看：</p>\n<ul>\n<li>哪些是固定規則</li>\n<li>哪些需要語意判斷</li>\n<li>哪些地方需要人審核</li>\n<li>哪些資料流程其實該先整理</li>\n<li>哪些需求現在不值得做</li>\n</ul>\n<p>這樣不一定最炫，但比較有機會做成一個真的能用、能維護、成本也合理的系統。</p>\n<h2>我們怎麼看 AI 自動化</h2>\n<p>我們最近在整理一個服務方向：AI 與資料自動化流程健檢。</p>\n<p>它不是要把所有問題都包裝成 AI 專案。<br>剛好相反，我們想做的是幫團隊判斷：</p>\n<ul>\n<li>哪些地方適合用 AI</li>\n<li>哪些地方應該用自動化或資料工程處理</li>\n<li>哪些地方其實該先整理資料</li>\n<li>哪些流程需要人工審核</li>\n<li>哪些需求現在不值得做</li>\n</ul>\n<p>很多時候，真正有價值的不是「用了 AI」，而是流程變得比較穩、比較省人力、比較容易維護。</p>\n<p>如果你的團隊也有類似情況，例如報表每週都要人工整理、想導入 AI 但資料還很亂、n8n workflow 不穩，或是資料流程開始需要排程、重跑和監控，可以先看這頁：</p>\n<p><a href=\"https://sheepht.com/services/ai-data-automation-audit?utm_source=sheepht_blog&amp;utm_medium=article&amp;utm_campaign=ai_data_automation_audit&amp;utm_content=openclaw_poc\">AI 與資料自動化流程健檢</a></p>",
+            "image": "https://blog.sheepht.com/media/posts/11/flowchart-process-tool-selection.png",
+            "author": {
+                "name": "黑羊 JF"
+            },
+            "tags": [
+                   "n8n",
+                   "AI"
+            ],
+            "date_published": "2026-04-30T23:06:57+08:00",
+            "date_modified": "2026-04-30T23:25:38+08:00"
+        },
+        {
             "id": "https://blog.sheepht.com/wedding-seating-chart-software.html",
             "url": "https://blog.sheepht.com/wedding-seating-chart-software.html",
             "title": "【婚禮座位安排工具】10 分鐘搞定 20 桌！Seatern 排位鷗鷗告別尷尬桌",
