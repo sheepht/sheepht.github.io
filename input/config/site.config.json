@@ -106,7 +106,7 @@
             "errorPage": "404.html",
             "searchPage": "search.html"
         },
-        "customHeadCode": "<script src=\"https://cdn.lrkt-in.com/LogRocket.min.js\" crossorigin=\"anonymous\"></script>\n<script>window.LogRocket && window.LogRocket.init('ujtkf6/blog-afbeg');</script>",
+        "customHeadCode": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-FVZJPL7SYZ\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag(\"js\", new Date());\n  gtag(\"config\", \"G-FVZJPL7SYZ\");\n</script>\n<script src=\"https://cdn.lrkt-in.com/LogRocket.min.js\" crossorigin=\"anonymous\"></script>\n<script>window.LogRocket && window.LogRocket.init('ujtkf6/blog-afbeg');</script>",
         "customBodyCode": "",
         "customCommentsCode": "",
         "customSearchInput": "",
@@ -245,5 +245,5 @@
         }
     },
     "theme": "mono",
-    "syncDate": 1777563436647
+    "syncDate": 1777627784394
 }
